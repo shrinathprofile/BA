@@ -133,7 +133,7 @@ def initialize_session_state():
 def log_event(event: str, details: Dict[str, Any]):
     logger.info(event, **details)
 
-def generate_llm_response(prompt: str, model: str = "nvidia/nemotron-nano-9b-v2:free") -> str:
+def generate_llm_response(prompt: str, model: str = "meta-llama/llama-3.3-8b-instruct:free") -> str:
     """Call OpenRouter with retries."""
     max_retries = 3
     for attempt in range(max_retries):
