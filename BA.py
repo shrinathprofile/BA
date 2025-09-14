@@ -252,7 +252,7 @@ def main():
     initialize_session_state()
     
     st.title("🤖 Enterprise AI Requirements Gathering Chatbot")
-    st.markdown("Dynamic Guide for Home Care & Aged Care AI Workflows, Agents, and RAG Applications")
+    st.markdown("Dynamic Guide AI Workflows, Agents, and RAG Applications")
     st.info("**Tech Stack:** Azure (e.g., Azure ML, Cosmos DB, AKS) and Power Platform (Power Apps, Power Automate, Power BI). AI asks follow-ups until satisfied.")
     
     # Sidebar
